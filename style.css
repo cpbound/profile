@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Raleway:wght@200;400;600&display=swap');
+
+body {
+  background-color: #F6E7D8;
+  font-family: 'Raleway', sans-serif;
+}
+h1, h2 {
+  font-family: 'DotGothic16', sans-serif;
+  color: #874356;
+  font-weight: bolder;
+}
+
+a {
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  box-shadow: 2px 2px 5px #00000042;
+  width: 40%;
+  height: 40%;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  color: #C65D7B;
+}
+
+.mail_button {
+  background-color: #C65D7B;
+  color: #F6E7D8;
+  margin-left: 0px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  border-left-style: solid;
+  padding-top: 12px;
+  border-radius: 5px;
+  border-left-width: 0px;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+.li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 30px auto; /* This automatically sets left/right margins */
+  text-align: center;
+}
+
+.card {
+  background-color: #f5e2cf;
+  box-shadow: 2px 2px 5px #874356;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.mail_button:hover {
+  box-shadow: 2px 2px 7px #00000042;
+}
+
+ul.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+ul.list-inline li {
+  display: inline;
+}
+
+ul.list-inline a {
+  font-size: 40px;
+}
+
+.fab:hover {
+  font-size: 64px;
+  color: #874356;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    font-size: small;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    font-size: smaller;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    font-size: x-small;
+  }
+}
